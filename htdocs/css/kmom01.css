@@ -1,0 +1,111 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+html {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    background-color: #eee;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 400px;
+}
+
+p {
+    margin: 15px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+img.meta_bild {
+    width: 100%;
+}
+
+.bild_på_mig {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.bild_på_mig p {
+    margin-bottom: 50px;
+}
+
+/* .my-navbar {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ddd;
+} */
+
+ul.my-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.my-navbar li {
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #ddd;
+}
+
+.author-byline {
+    border: solid black 1px;
+    max-width: 50%;
+    margin: 10px;
+}
+
+.author-byline img {
+    float: left;
+    margin-right: 10px;
+}
+
+.region-footer {
+    background-color: #222;
+    padding: 15px;
+}
+
+.region-footer p {
+    color: #fff;
+}
+
+.region-footer h4 {
+    color: #fff;
+}
+
+article {
+    float: left;
+}
+
+.outer-wrap-footer {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+text-align: center;
+}
