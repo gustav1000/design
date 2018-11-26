@@ -1,0 +1,180 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  width: 60%;
+  left: 20%;
+  position: absolute;
+  margin: 0;
+  padding-bottom: 400px;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+p {
+  margin: 15px;
+}
+h1 {
+  margin: 20px;
+}
+article {
+  float: left;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.my-navbar {
+  text-align: center;
+  text-decoration: none;
+  background-color: #ddd;
+}
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.author-byline {
+  border: solid black 1px;
+  max-width: 50%;
+  margin: 10px;
+}
+.author-byline img {
+  float: left;
+  margin-right: 10px;
+}
+ul.my-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.my-navbar li {
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: #ddd;
+}
+.region-footer {
+  background-color: #222;
+  padding: 15px;
+}
+.region-footer p {
+  color: #fff;
+}
+.region-footer h4 {
+  color: #fff;
+}
+img.meta_bild {
+  width: 100%;
+}
+.bild_på_mig {
+  float: right;
+  margin-bottom: 20px;
+}
+.bild_på_mig p {
+  margin-bottom: 50px;
+}
+.outer-wrap-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

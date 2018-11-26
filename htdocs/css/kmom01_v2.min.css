@@ -1,0 +1,12 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ *//*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */html{overflow-y:scroll;background-color:#424242;height:100%;box-sizing:border-box}body{width:60%;left:20%;position:absolute;margin:0;padding-bottom:400px;color:#333;background-color:#fff;font:100.01%/1 serif;border-left:2px solid #000;border-right:2px solid #000;border-bottom:2px solid #000}p{margin:15px}h1{margin:20px}article{float:left}.rm-desktop ul{display:none}.rm-navbar-max{display:none}.my-navbar{text-align:center;text-decoration:none;background-color:#ddd}.inner-wrap{max-width:1100px;margin:0 auto}.author-byline{border:solid #000 1px;max-width:50%;margin:10px}.author-byline img{float:left;margin-right:10px}ul.my-navbar{list-style-type:none;margin:0;padding:0;overflow:hidden}ul.my-navbar li{float:left;display:block;padding:8px;background-color:#ddd}.region-footer{background-color:#222;padding:15px}.region-footer p{color:#fff}.region-footer h4{color:#fff}img.meta_bild{width:100%}.bild_på_mig{float:right;margin-bottom:20px}.bild_på_mig p{margin-bottom:50px}.outer-wrap-footer{position:absolute;right:0;bottom:0;left:0;text-align:center}@media screen and (max-width:1500px){.site-logo{display:none}}.regions .outer-wrap{background-color:#f4e3c9;border:1px solid #e3b774}.regions .inner-wrap{background-color:#f4e0e9;border:1px solid #d995b4}.regions .region-after-main,.regions .region-breadcrumb,.regions .region-columns-above,.regions .region-columns-below,.regions .region-flash,.regions .region-flash-message,.regions .region-footer,.regions .region-footer-column-1,.regions .region-footer-column-2,.regions .region-footer-column-3,.regions .region-header-col-1,.regions .region-header-col-2,.regions .region-header-col-3,.regions .region-main,.regions .region-sidebar-left,.regions .region-sidebar-right{background-color:#b5dce1;border:1px solid #6cbac4;color:#111}

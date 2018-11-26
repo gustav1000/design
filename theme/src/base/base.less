@@ -1,0 +1,40 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 60%;
+    left: 20%;
+    position: absolute;
+    margin: 0;
+    padding-bottom: 400px;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+p {
+    margin: 15px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+article {
+    float: left;
+}
