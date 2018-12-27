@@ -18,7 +18,7 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-<div class="bild_på_mig">
+<div class="bild_pa_mig">
 [FIGURE src="img/me_index.jpg" class="right" caption="Bild på mig i Kristianstad efter en UF mässa."]
 </div>
 

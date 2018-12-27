@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design kmom01.
+ * LESS version of the stylesheet for design kmom02.
  *
  * This stylesheet is for the design course and kmom01. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
@@ -4580,7 +4580,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #424242;
+  background-color: #3a3a3a;
   height: 100%;
   box-sizing: border-box;
 }
