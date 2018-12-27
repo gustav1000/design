@@ -1,0 +1,60 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #3a3a3a;
+@bgColorBody: #fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 300px;
+    width: 60%;
+    left: 20%;
+    position: absolute;
+    margin: 0;
+    // padding-bottom: 400px;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+#desinax-hgrid.activateDefaultTypography();
+
+p {
+    margin: 15px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+article {
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+// .my-navbar {
+//     text-align: center;
+//     text-decoration: none;
+// }
+
+// ul.my-navbar {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden;
+// }
