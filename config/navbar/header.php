@@ -53,5 +53,10 @@ return [
             "url" => "test",
             "title" => "Testande för möjligheter till utveckling.",
         ],
+        [
+            "text" => "rapport",
+            "url" => "rapport",
+            "title" => "rapport",
+        ],
     ],
 ];
