@@ -54,9 +54,19 @@ return [
             "title" => "Testande för möjligheter till utveckling.",
         ],
         [
-            "text" => "rapport",
-            "url" => "rapport",
-            "title" => "rapport",
+            "text" => "Rapport om färger",
+            "url" => "rapport/rapport",
+            "title" => "rapport om färger",
+        ],
+        [
+            "text" => "Rapport om laddningstider",
+            "url" => "rapport/laddningstid",
+            "title" => "rapport om laddningstider",
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "blogg",
         ],
     ],
 ];
