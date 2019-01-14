@@ -1,27 +1,27 @@
 /*!
- * LESS version of the stylesheet for design kmom05.
+ * LESS version of the stylesheet for design kmom06.
  *
- * This stylesheet is for the design course and kmom01. Its intention is to
+ * This stylesheet is for the design course and kmom06. Its intention is to
  * use kmom01.css and lessify the style and use this as a wrapper for the new
  * style.
  */
 
 // normalize
 
- @import "normalize.css/normalize.less";
+@import "normalize.css/normalize.less";
 
 
 // fontawesome
 
- @import "@fortawesome/fontawesome-free/less/fontawesome.less";
- @import "@fortawesome/fontawesome-free/less/solid.less";
- @import "@fortawesome/fontawesome-free/less/brands.less";
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
 
 
 // responsiv meny
 
- @import "@desinax/responsive-menu/less/responsive-menu.less";
- @import "@desinax/responsive-menu/less/media-queries.less";
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
 
 /**
  * Internal self contained modules, save in directory module/.
@@ -106,3 +106,73 @@ figure.figure-codepen {
 /**
  * My own settings, not currently in their own module.
  */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+
+html {
+    background-image: linear-gradient(to right, #080616,#5B5FFF,#5B5FFF,#080616);
+}
+
+body {
+    background-color: #eee;
+}
+
+div.row main {
+    background-color: #eee;
+}
+
+ul.my-navbar.rm-default.rm-desktop li {
+    color: #5B5FFF;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: none;
+}
+
+ul.my-navbar.rm-default.rm-desktop a {
+    text-decoration: none;
+}
+
+ul.my-navbar.rm-default.rm-desktop li:hover {
+    background-color: #5B5FFF;
+    color: #000;
+}
+
+ul.my-navbar.rm-default.rm-desktop {
+    color: #fff;
+    text-align: center;
+}
+
+div.inner-wrap.inner-wrap-header {
+    background-color: #333;
+}
+
+div.region-header-col-1 span {
+    display: none;
+}
+
+div.region-header-col-2 {
+    width: 100%;
+}
+
+div.region-header-col-3 {
+    width: 0;
+}
+
+.bild_pa_mig {
+    border: ridge #5B5FFF 3px;
+    width: 350px;
+    margin-right: 10px;
+}
+
+article.article {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.block.site-footer {
+    background-color: #333;
+}

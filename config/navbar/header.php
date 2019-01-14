@@ -68,5 +68,15 @@ return [
             "url" => "blogg",
             "title" => "blogg",
         ],
+        [
+            "text" => "Rapport om designprinciper",
+            "url" => "rapport/designprincip",
+            "title" => "rapport om designprinciper",
+        ],
+        [
+            "text" => "Rapport om designelement",
+            "url" => "rapport/designelement",
+            "title" => "rapport om designelement",
+        ],
     ],
 ];
