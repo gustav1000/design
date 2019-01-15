@@ -1,0 +1,241 @@
+/*!
+ * LESS version of the stylesheet for design kmom06.
+ *
+ * This stylesheet is for the design course and kmom06. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+
+// normalize
+
+@import "normalize.css/normalize.less";
+
+
+// fontawesome
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+// responsiv meny
+
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+
+@import "module/kmom01.less";
+
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base_kmom03.less";
+//@import "base/base.less";
+
+
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout_default.less";
+// @import "layout/responsive_default.less";
+// @import "layout/layout.less";
+// @import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+ * Import the vertical and H grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+
+
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+@import "layout/hgrid.less";
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+@import "src/@desinax/figure/less/asciinema.less";
+@import "src/@desinax/figure/less/codepen.less";
+@import "src/@desinax/figure/less/figure.less";
+
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+.centerFootBlogg {
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.bloggP {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.6;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+
+html {
+    background-image: linear-gradient(to right, #230000,#E50000,#E50000,#230000);
+}
+
+body {
+    background-color: #eee;
+    border-left: #620000 solid 4px;
+    border-right: #620000 solid 4px;
+    border-bottom: #620000 solid 4px;
+}
+
+div.row main {
+    background-color: #eee;
+}
+
+ul.my-navbar.rm-default.rm-desktop li {
+    color: #e0a800;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color: none;
+}
+
+ul.my-navbar.rm-default.rm-desktop a {
+    text-decoration: none;
+}
+
+ul.my-navbar.rm-default.rm-desktop li:hover {
+    background-color: #e0a800;
+    color: #620000;
+    -webkit-box-shadow: 0px 0px 35px 12px rgba(224,168,0,1);
+    -moz-box-shadow: 0px 0px 35px 12px rgba(224,168,0,1);
+    box-shadow: 0px 0px 35px 12px rgba(224,168,0,1);
+}
+
+ul.my-navbar.rm-default.rm-desktop {
+    color: #fff;
+    background-color: #620000;
+    text-align: center;
+}
+
+div.inner-wrap.inner-wrap-header {
+    background-color: #333;
+}
+
+div.region-header-col-1 span {
+    display: none;
+}
+
+div.region-header-col-2 {
+    width: 100%;
+}
+
+div.region-header-col-3 {
+    width: 0;
+}
+
+.bild_pa_mig {
+    border: ridge #DB8484 3px;
+    width: 350px;
+    margin-right: 10px;
+}
+
+article.article {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #620000;
+    background-color: #E3C8C8;
+    -webkit-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    -moz-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+}
+
+div.block.site-footer {
+    background-color: #333;
+}
+
+div.wrap-sidebar.region-sidebar-left.has-sidebar-left.has-sidebar {
+    background-color: #E3C8C8;
+    border: 1px solid #620000;
+    width: 200px;
+    margin: 5px;
+    -webkit-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    -moz-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+}
+
+nav.breadcrumb-list ul {
+    background-color: #E3C8C8;
+    border: 1px solid #620000;
+    width: 95%;
+    margin-left: 1%;
+    -webkit-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    -moz-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+}
+
+div.row {
+    background-color: #eee;
+}
+
+div.next a{
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #E3C8C8;
+    border: 1px solid #620000;
+    -webkit-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    -moz-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+}
+
+div.previous a {
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    background-color: #E3C8C8;
+    border: 1px solid #620000;
+    -webkit-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    -moz-box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+    box-shadow: 10px 10px 3px 0px rgba(100, 10, 10,0.65);
+}
+
+.next-previous {
+    margin-bottom: 15px;
+}

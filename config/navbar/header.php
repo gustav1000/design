@@ -59,14 +59,14 @@ return [
             "title" => "rapport om färger",
         ],
         [
-            "text" => "Rapport om laddningstider",
-            "url" => "rapport/laddningstid",
-            "title" => "rapport om laddningstider",
-        ],
-        [
             "text" => "Blogg",
             "url" => "blogg",
             "title" => "blogg",
+        ],
+        [
+            "text" => "Rapport om laddningstider",
+            "url" => "rapport/laddningstid",
+            "title" => "rapport om laddningstider",
         ],
         [
             "text" => "Rapport om designprinciper",
@@ -77,6 +77,11 @@ return [
             "text" => "Rapport om designelement",
             "url" => "rapport/designelement",
             "title" => "rapport om designelement",
+        ],
+        [
+            "text" => "Rapport om designprinciper del 2",
+            "url" => "rapport/designprinciper",
+            "title" => "rapport om designprinciper med tema",
         ],
     ],
 ];
